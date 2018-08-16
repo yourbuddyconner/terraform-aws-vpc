@@ -3,6 +3,12 @@ variable "create_vpc" {
   default     = true
 }
 
+variable "aws_region" {
+  description = "AWS region"
+  default     = "us-west-1"
+}
+
+
 variable "name" {
   description = "Name to be used on all the resources as identifier"
   default     = ""
